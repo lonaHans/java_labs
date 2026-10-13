@@ -10,6 +10,9 @@ public class Main {
         ShoppingTotal shopping = new ShoppingTotal();
         shopping.getTotalPrice();
 
+        TemperatureConverter temp = new TemperatureConverter();
+        temp.getTemperature();
+
 
 
 
