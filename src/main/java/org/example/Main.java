@@ -19,6 +19,9 @@ public class Main {
         GradeCalculator cal = new GradeCalculator();
         cal.calculator();
 
+        NumberAnalysis num = new NumberAnalysis();
+        num.analysis();
+
 
 
 
