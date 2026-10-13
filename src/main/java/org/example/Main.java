@@ -25,6 +25,9 @@ public class Main {
         LoginCheck lg = new LoginCheck();
         lg.isVaild();
 
+        StudentMarks sm = new StudentMarks();
+        sm.marks();
+
 
 
 
