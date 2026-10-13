@@ -28,6 +28,12 @@ public class Main {
         StudentMarks sm = new StudentMarks();
         sm.marks();
 
+        BankAccount ba = new BankAccount("Lona","5214651",2000);
+        ba.getBalance();
+        ba.deposit(100);
+        ba.withdraw(10000);
+
+
 
 
 
