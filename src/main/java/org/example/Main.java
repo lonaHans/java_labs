@@ -22,6 +22,9 @@ public class Main {
         NumberAnalysis num = new NumberAnalysis();
         num.analysis();
 
+        LoginCheck lg = new LoginCheck();
+        lg.isVaild();
+
 
 
 
