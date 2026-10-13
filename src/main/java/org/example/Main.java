@@ -13,6 +13,9 @@ public class Main {
         TemperatureConverter temp = new TemperatureConverter();
         temp.getTemperature();
 
+        PassOrFail result = new PassOrFail();
+        result.getMark();
+
 
 
 
