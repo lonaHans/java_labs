@@ -73,6 +73,31 @@ public class Main {
         rect1.area();
         rect1.perimeter();
 
+        Student_ st =  new Student_("Lona", new int[]{40,55,20},"142536");
+        Student_ st1 = new Student_("Pamela", new int[] {70,80,101},"251436");
+        Student_ st2 = new Student_("Lethabo", new int[] {50,89,70},"284436");
+
+        Student_[] students = {st, st1, st2};
+        int passCount = 0;
+        Student_ highest = students[0];
+        for (int i = 0; i < students.length; i++) {
+            students[i].displaySummary();
+
+            if (students[i].hasPassed()) {
+                passCount++;
+            }
+            if (students[i].average() > highest.average()) {
+                highest = students[i];
+            }
+        }
+
+        System.out.println("Number of students passed: " + passCount);
+
+        System.out.println("Student with highest average: "+ highest.name);
+
+        System.out.println("Highest average: " + highest.average());
+
+
 
 
 
