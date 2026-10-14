@@ -60,6 +60,14 @@ public class Main {
             cars[i].display();
         }
 
+        Rectangle rect = new Rectangle(2,3);
+        Rectangle rect1 = new Rectangle(22,31);
+        rect.area();
+        rect.perimeter();
+        rect1.area();
+        rect1.perimeter();
+
+
 
 
 
