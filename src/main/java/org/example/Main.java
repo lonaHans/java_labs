@@ -33,6 +33,12 @@ public class Main {
         ba.deposit(100);
         ba.withdraw(10000);
 
+        Product p = new Product("P214","plates",500,5);
+        p.getDetails();
+        p.addStock(4);
+        p.soldProduct(8);
+
+
 
 
 
