@@ -96,6 +96,42 @@ public class Main {
         System.out.println("Student with highest average: "+ highest.name);
 
         System.out.println("Highest average: " + highest.average());
+        System.out.println(" ");
+
+        Product_ p1 = new Product_("Coffee", 25, 4);
+        Product_ p2 = new Product_("Sandwich", 45, 5);
+        Product_ p3 = new Product_("Muffin", 20, 3);
+        Product_ p4 = new Product_("Cake", 50, 6);
+
+        Product_[] products = {p1, p2, p3, p4};
+
+        double subtotal = 0;
+        double discount = 0;
+        double finalTotal;
+
+        for (int i = 0; i < products.length; i++) {
+
+            double lineTotal = products[i].lineTotal();
+
+            System.out.println("Product: " + products[i].name);
+            System.out.println("Price: R" + products[i].price);
+            System.out.println("Quantity: " + products[i].quantity);
+            System.out.println("Line total: R" + lineTotal);
+            subtotal = subtotal + lineTotal;
+        }
+
+        if (subtotal > 1000) {
+            discount = subtotal * 0.10;
+        }
+
+        finalTotal = subtotal - discount;
+
+        System.out.println("Subtotal: R" + subtotal);
+        System.out.println("Discount: R" + discount);
+        System.out.println("Final total: R" + finalTotal);
+
+
+
 
 
 
