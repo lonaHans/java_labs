@@ -32,7 +32,8 @@ public class BankAccount {
     }
 
     public void getBalance(){
-        System.out.println("Available balance " + balance);
+
+        System.out.println("Available balance " + this.balance);
     }
 
 }
