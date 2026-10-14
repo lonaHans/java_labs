@@ -5,6 +5,7 @@ public class Student {
     String studentNumber;
     double mark;
 
+
     public  Student(String name,String studentNumber,double mark){
         this.name = name;
         this.studentNumber =studentNumber;
@@ -27,5 +28,7 @@ public class Student {
              return false;
          }
     }
+
+
 
 }
