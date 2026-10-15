@@ -131,6 +131,49 @@ public class Main {
         System.out.println("Final total: R" + finalTotal);
 
 
+        Employee e1 = new Employee("001", "Lona", 8500);
+        Employee e2 = new Employee("002", "Peter", 12000);
+        Employee e3 = new Employee("003", "Sarah", 22000);
+        Employee e4 = new Employee("004", "John", 18000);
+        Employee e5 = new Employee("005", "Mary", 9500);
+
+        Employee[] employees = {e1, e2, e3, e4, e5};
+        double totalSalary = 0;
+        double averageSalary;
+        double highestSalary = employees[0].salary;
+        double threshold = 15000;
+
+        for (int i = 0; i < employees.length; i++) {
+
+            employees[i].displayDetails();
+
+            totalSalary += employees[i].salary;
+
+            if (employees[i].salary > highestSalary) {
+                highestSalary = employees[i].salary;
+            }
+        }
+        averageSalary = totalSalary / employees.length;
+        System.out.println("Highest salary: R" + highestSalary);
+        System.out.println("Average salary: R" + averageSalary);
+
+        for (int i = 0; i < employees.length; i++) {
+
+            System.out.print(employees[i].name + ": ");
+
+            if (employees[i].salary < 10000) {
+                System.out.println("Below R10,000");
+
+            } else if (employees[i].salary < 20000) {
+                System.out.println("R10,000 up to below R20,000");
+
+            } else {
+                System.out.println("R20,000 and above");
+            }
+        }
+
+
+
 
 
 
