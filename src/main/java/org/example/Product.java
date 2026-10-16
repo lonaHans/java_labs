@@ -44,6 +44,7 @@ public class Product {
     }
 
     public double stockValue() {
+
         return price * stockQuantity;
     }
 
