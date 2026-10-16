@@ -1,6 +1,9 @@
 package org.example;
 
 public class NumberAnalysis {
+//    Create NumberAnalysis.
+//    Determine whether an integer is positive, negative, or zero, and whether it is even or odd.
+//    Remember that zero is even.
     public void analysis(){
         int number =0;
         int isEven;

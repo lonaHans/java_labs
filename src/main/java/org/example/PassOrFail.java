@@ -1,6 +1,8 @@
 package org.example;
 
 public class PassOrFail {
+//Create PassOrFail. If a mark is 50 or higher, display Pass; otherwise, display Fail.
+//Challenge: Reject marks below 0 or above 100.
     public void getMark(){
         int mark = 100;
 

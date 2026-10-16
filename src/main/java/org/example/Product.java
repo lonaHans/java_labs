@@ -1,6 +1,11 @@
 package org.example;
 
 public class Product {
+
+//    Create a Product class with product ID, name, price, and stock quantity.
+//    Add methods to display details, add stock, reduce stock after a sale, and calculate stock value (price * quantity).
+//    Do not allow sales that exceed available stock.
+
     String id,name;
     double price;
     int stockQuantity;

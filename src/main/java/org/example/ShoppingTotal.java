@@ -1,6 +1,9 @@
 package org.example;
 
 public class ShoppingTotal {
+
+//    Create ShoppingTotal. Store a product name, unit price, and quantity. Calculate and display the total cost.
+//    Challenge: Apply a discount percentage and display the final amount.
     public void getTotalPrice(){
         String productName = "sneakers";
         int quantity = 2;

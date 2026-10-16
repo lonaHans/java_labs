@@ -3,6 +3,8 @@ package org.example;
 import java.util.ArrayList;
 
 public class EvenOddArray {
+//    Create EvenOddArray. Count the even and odd values in an integer array.
+//Challenge: Store the even and odd values in separate arrays or lists.
     public void evenOdd(){
         int [] numbers = {2,3,6,5,11,122,7};
         ArrayList<Integer> evenNum = new ArrayList<>();

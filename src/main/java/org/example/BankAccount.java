@@ -1,6 +1,12 @@
 package org.example;
 
 public class BankAccount {
+
+//    Create a BankAccount class with private fields for account holder, account number, and balance.
+//    Add a constructor and methods: - deposit(double amount) - withdraw(double amount) - getBalance()
+//A deposit or withdrawal must be greater than zero. A withdrawal cannot exceed the balance.
+// Invalid operations must not change the balance. Test valid and invalid transactions.
+
     private String accountHolder;
     private String accountNumber;
     private double balance;

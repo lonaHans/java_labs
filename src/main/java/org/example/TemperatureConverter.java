@@ -1,6 +1,9 @@
 package org.example;
 
 public class TemperatureConverter {
+//Create TemperatureConverter. Convert Celsius to Fahrenheit using:
+//fahrenheit = (celsius * 9 / 5) + 32
+//Display both values. Challenge: Convert Fahrenheit back to Celsius.
     public void getTemperature(){
         double fahrenheit,celsius =21;
 

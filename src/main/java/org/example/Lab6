@@ -1,0 +1,30 @@
+Exercise 6.1
+The code will print "Different text" as the == compares two variables. Instead of using ==, use .equals() is better as it compares the contents of the string variable.
+The corrected code:
+String first = new String("Java");
+String second = new String("Java");
+
+if (first.equals(second)) {
+    System.out.println("Same text");
+} else {
+    System.out.println("Different text");
+}
+
+Exercise 6.2
+The error is in the loop condition "i <= number.length"
+
+The corrected code:
+int[] numbers = {10, 20, 30};
+
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+}
+
+Exercise 6.3
+int mark = 85;
+
+if (mark >= 80) {s
+    System.out.println("Distinction");
+} else if (mark >= 50) {
+    System.out.println("Pass");
+}
